@@ -1,0 +1,110 @@
+/*
+Names:  Travis Boaz, Andrew Kasnevich, Brian Stamm
+Group:  2
+Assignment:  Final Project  Reuse & Repair App
+Date:  3.17.16
+Notes:  This is the main CSS file used with bootstrap.  
+*/
+
+
+/* Main page list */
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+/* Login button */
+#login{
+    border: 5%;
+}
+
+/* User & Password */
+#logInPage{
+    margin: auto;
+    width: 40%;
+}
+
+/* Input forms, user forms */
+#rightSide {
+    float: right;
+    margin: 0 2.5%;
+    width: 30%;
+}
+
+/* Left side lists */
+/*.scroll{
+     float: left;
+     margin: 30%;
+}*/
+
+/* Business page - List left side*/
+#businessList{
+    width: 30%;
+}
+
+/* Reuse page - List left side*/
+#reuseList{
+    width: 30%;
+}
+
+/* Repair page - List left side*/
+#repairList{
+    width: 30%;
+}
+
+/* Reuse page -List left return link*/
+#reuseSelect{
+    width: : 30%;
+}
+
+/* Reuse page -List left side*/
+#reuseSelect{
+    width: : 30%;
+}
+
+/* Subcat page -left side*/
+#subSelect{
+    width: : 30%;
+}
+
+/* Subcat page -List left side*/
+#subList{
+    width: : 30%;
+}
+
+/* Subcat page -List left side*/
+.subList{
+    width: : 30%;
+}
+
+/* Admin page -List left side*/
+.adminList{
+    width: : 30%;
+}
+
+/* Hyperlink on Admin page, left side*/
+.returnMenu{
+    margin-left: : 10%;
+    padding: 1%;
+    padding-left: 11%;
+}
+
+/* Hyperlink on Admin page, left side*/
+#returnUser{
+    padding-left: 11%;
+    margin-right: 70%;
+}
+
+
+/* Relationship page -add to right side*/
+.relationship-top{
+    margin-top: 5%;
+    padding: 1.5%;
+}
+
+/* Main user input pages */
+section{
+    margin: 5% 10%;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Corvallis Sustainability Coalition</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    </head>
+    <body>
+        <section>
+            <div id="rightSide"> 
+                <form role="form">
+                    <div class="form-group">
+                        <p>ID:  <span id="id"></span></p>
+                        <p>Title: <input class="form-control" type="text" id="name"></p>
+                        <p>Notes:  <textarea class="form-control" type="text" id="notes"></textarea></p>
+                        <p>About:  <textarea class="form-control" id="about"></textarea></p>
+                        <button class="btn btn-default" id="delete">Delete</button>
+                        <button class="btn btn-default" id="edit">Edit</button>
+                        <button class="btn btn-default" id="create">Create New</button>
+                    </div>
+                </form>
+            </div>
+            <div class="scroll" id="button">
+                <h2>Current Admin Fields</h2>
+                <div class="col-xs-3" id="adminList">
+                </div>
+            </div>
+            <br>
+        </section>
+        <div class="returnMenu"><a href="menu.html">Back to Main Menu</a></div>
+        <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+        <script type="text/javascript" src="js/adminAction.js"></script>
+    </body>
+</html>

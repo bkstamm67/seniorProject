@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Corvallis Sustainability Coalition</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    </head>
+    <body>
+    <section>
+        <div id="rightSide"> 
+            <h3>Current Categories</h3>
+            <form role="form">
+            <div class="form-group">
+                <p id="hide">ID:  <span id="id"></span></p>
+                <p>Business: <span id="name"></span></p>
+                <div id="bigList"></div>
+                <button class="btn btn-default" id="remove">Remove</button>
+                <div class="relationship-top"><h4>Add to</h4>
+                    <p><input class="radio-inline" type="radio" name="cat" id="reuseAddRadio" value="reuse">Reuse
+                    <input class="radio-inline" type="radio" name="cat" id="repairAddRadio" value="repair">Repair</p>
+                    <div id="reuseAdd"></div>
+                    <div id="repairAdd"></div>
+                </div>
+                </div>                
+            </form>
+        </div>
+        <div class="scroll" id="button">
+            <h2>Businesses to Add</h2>
+            <div id="businessList">
+            </div>
+        </div>
+        <div><a href="menu.html">Back to Main Menu</li></div>
+        </section>
+        <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+        <script type="text/javascript" src="js/relationAction.js"></script>
+    </body>
+</html>
