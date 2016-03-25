@@ -3,10 +3,10 @@
 ini_set('display_errors', 'On');
 
 //Variables for the database
-$dbUser = 'brian';//'stammbr-db';
-$host = 'localhost';//'oniddb.cws.oregonstate.edu';
-$dbPass = 'cardinals';//'EdIN2EJcEdi2t9PD';
-$db = 'stammbr';//'stammbr-db';
+$dbUser = '';//database user goes here 
+$host = '';//host name goes here
+$dbPass = '';//password goes here
+$db = '';//database name goes here
 
 //Connects to database
 $mysqli = new mysqli($host, $dbUser, $dbPass, $db);
