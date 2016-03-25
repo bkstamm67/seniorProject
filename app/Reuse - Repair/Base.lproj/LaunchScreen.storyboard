@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Corvallis Reuse and Repair Directory" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="czu-tQ-VBk">
+                                <rect key="frame" x="58" y="302" width="298" height="85"/>
+                                <color key="backgroundColor" red="0.068050141039999998" green="0.38461305759999997" blue="0.098202466370000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="vg1-x4-eE3"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="blX-WM-trj">
+                                <rect key="frame" x="143" y="156" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="4je-UK-fVO"/>
+                                    <constraint firstAttribute="width" constant="128" id="fWh-Dx-uqA"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ow2-qg-sqK">
+                                <rect key="frame" x="0.0" y="608" width="414" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Corvallis sustainability_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Cei-cx-ZSR">
+                                        <rect key="frame" x="31" y="0.0" width="353" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Cei-cx-ZSR" firstAttribute="centerX" secondItem="Ow2-qg-sqK" secondAttribute="centerX" id="9fa-GI-ScN"/>
+                                    <constraint firstItem="Cei-cx-ZSR" firstAttribute="leading" secondItem="Ow2-qg-sqK" secondAttribute="leading" constant="31" id="IN2-mS-umu"/>
+                                    <constraint firstAttribute="bottom" secondItem="Cei-cx-ZSR" secondAttribute="bottom" id="Mcj-bo-q8w"/>
+                                    <constraint firstItem="Cei-cx-ZSR" firstAttribute="top" secondItem="Ow2-qg-sqK" secondAttribute="top" id="eNg-Jm-E4f"/>
+                                    <constraint firstAttribute="width" secondItem="Ow2-qg-sqK" secondAttribute="height" multiplier="207:64" id="ibI-TI-opj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.068050141039999998" green="0.38461305759999997" blue="0.098202466370000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="blX-WM-trj" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" multiplier="0.4" constant="148" id="8OM-NF-jGP"/>
+                            <constraint firstItem="blX-WM-trj" firstAttribute="centerX" secondItem="czu-tQ-VBk" secondAttribute="centerX" id="93n-BR-T5Y"/>
+                            <constraint firstAttribute="trailing" secondItem="Ow2-qg-sqK" secondAttribute="trailing" id="MMq-p8-t9B"/>
+                            <constraint firstItem="Ow2-qg-sqK" firstAttribute="centerX" secondItem="czu-tQ-VBk" secondAttribute="centerX" id="jvv-5d-iHb"/>
+                            <constraint firstItem="Ow2-qg-sqK" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="kvz-Jv-Ib4"/>
+                            <constraint firstItem="czu-tQ-VBk" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="38" id="wE6-Vx-2Xy"/>
+                            <constraint firstItem="Ow2-qg-sqK" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="yTJ-fk-oJ0"/>
+                            <constraint firstItem="czu-tQ-VBk" firstAttribute="top" secondItem="blX-WM-trj" secondAttribute="bottom" constant="18" id="yby-IM-ZbV"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="299" y="374"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Corvallis sustainability_logo" width="2547" height="1008"/>
+        <image name="icon" width="1179" height="1178"/>
+    </resources>
+</document>
